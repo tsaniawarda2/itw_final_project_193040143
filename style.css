@@ -1,0 +1,254 @@
+/* Navbar */
+.navbar-fixed {
+	text-transform: uppercase;
+	font-family: Russo One;
+}
+.nav-link:hover{
+	color: #bf360c !important;
+}
+
+/* Parralax */
+.parallax-container{
+	height: 600px;
+}
+.jumbotron h3 {
+	text-shadow: 5px 5px 8px rgba(0,0,0,.5);
+	font-family: Russo One;
+	margin-top: 180px;
+	font-size: 40px;
+}
+.jumbotron h4 {
+	text-shadow: 5px 5px 8px rgba(0,0,0,.5);
+	font-family: Saira;
+	font-size: 23px;
+}
+.jumbotron button img {
+	margin-top: -9px;
+	width: 120px;
+}
+
+/* Container */
+.container h4 {
+	margin-top: 100px;
+	text-transform: uppercase;
+	font-family: Carter One;
+	text-align: center;
+	font-size: 50px;
+	color: #bdbdbd;
+}
+
+/* About */
+.about {
+	margin-top: 100px;
+}
+.about h4 {
+	margin-top: 50px;
+}
+.about p {
+	margin-top: 5px;
+	text-align: justify;
+	font-family: PT Sans;
+}
+.about img {
+	margin-left: 27px;
+}
+
+/* Product */
+.product h5 {
+	font-family: Poiret One;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 15px;
+}
+.product p {
+	font-family: Rajdhani;
+	text-align: center;
+	margin-top: 1px;
+	font-size: 20px;
+}
+.product img {
+	margin-top: 30px;
+	padding: 0px 20px;
+}
+
+/* Testimoni */
+.slider {
+	margin-bottom: 100px;
+}
+
+/* Store */
+.store {
+	margin-top: 100px;
+	background-image: url(img/chevron.png);
+}
+.store .m3 {
+	text-shadow: 3px 3px 5px rgba(0,0,0,.5);
+	filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+	padding-top: 50px;
+	font-size: 75px;
+}
+.tokopedia {
+	margin-top: -100px;
+}
+.shopee {
+	margin-top: -150px;
+	margin-left: 200px !important;
+
+}
+.store img {
+	padding: 60px;
+	max-width: 500px;
+}
+
+/* Slider */
+.slider h3,
+.slider h5 {
+	text-shadow: 3px 3px 5px rgba(0,0,0,.5);
+}
+.slider h3 {
+	font-family: Carter One;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+.slider h5 {
+	font-family: Rajdhani;
+	font-weight: bolder;
+	color: #fafafa;
+	text-shadow: 3px 3px 5px rgba(0,0,0,.5);
+}
+.caption img {
+	width: 250px !important;
+	margin-left: 15px;
+}
+
+/* Contact */
+.contact h3 {
+	font-family: Bebas Neue;
+	font-size: 70px;
+	text-align: center;
+}
+
+/* Footer */
+footer {
+	padding: 10px 0px;
+	font-family: Bebas Neue;
+	text-transform: uppercase;
+	color: #212121;
+}
+footer span {
+	top: 100px;
+	float: right;
+}
+.info {
+	padding-top: 10px;
+	padding-bottom: 1px;
+}
+.info h5 {
+	font-family: Carter One;
+	padding-top: 30px;
+
+}
+.info h6 {
+	font-family: Bebas Neue;
+	font-size: 20px;
+}
+.info p {
+	margin-top: -1px;
+	font-family: PT Sans;
+}
+.follow a {
+	margin-right: 20px;
+}
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+	/* Parralax */
+	.parallax-container{
+		height: 600px;
+	}
+	.jumbotron h3 {
+		text-shadow: 5px 5px 8px rgba(0,0,0,.5);
+		font-family: Russo One;
+		margin-top: 180px;
+	}
+	.jumbotron h4 {
+		text-shadow: 5px 5px 8px rgba(0,0,0,.5);
+		font-family: Saira;
+	}
+	.jumbotron button img {
+		margin-top: -9px;
+		width: 120px;
+	}
+
+	/* About */
+	.about {
+		margin-top: 100px;
+	}
+	.about h4 {
+		margin-top: 100px;
+	}
+
+	/* Store */
+	.store {
+		margin-top: 100px;
+		background-image: url(img/chevron.png);
+	}
+	.store .m3 {
+		text-shadow: 3px 3px 5px rgba(0,0,0,.5);
+		filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+		padding-top: 50px;
+		font-size: 75px;
+	}
+	.tokopedia img {
+		margin-left: -65px;
+		margin-top: 50px;
+		width: 235px;
+	}
+	.shopee img{
+		margin-left: -15px;
+		margin-top: -15px;
+		width: 225px;
+	}
+	.store img {
+		padding: 60px;
+		max-width: 500px;
+	}
+
+	/* Slider */
+	.slider h3,
+	.slider h5 {
+		padding-left: 50px;
+		padding-top: 45px;
+		text-shadow: 3px 3px 5px rgba(0,0,0,.5);
+	}
+	.slider h3 {
+		font-family: Carter One;
+		color: white;
+		font-size: 40px;
+	}
+	.slider h5 {
+		font-family: Rajdhani;
+		font-weight: bolder;
+		font-size: 30px;
+		color: #bdbdbd;
+		text-shadow: 3px 3px 5px rgba(0,0,0,.5);
+	}
+	.slider li img {
+		max-width:100%; 
+		height:auto;
+	}
+	.caption img {
+		width: 430px !important;
+		float: right;
+	}
+
+	/* Contact */
+	.contact h3 {
+	font-family: Bebas Neue;
+	font-size: 70px;
+	text-align: left;
+	}
+
+}
